@@ -14,6 +14,6 @@ Extract contours in 2D and 3D image
     5. Color the corners by whether than exceed or are less than the contour value t
     
     There are 16 cases:
-![marchingsqueue]("https://github.com/KokoFan16/Contour_Tree/blob/master/image/16cases.png")
+![marchingsqueue](https://github.com/KokoFan16/Contour_Tree/blob/master/image/16cases.png)
     
 For machingSquere.cpp, the ```input``` file is a 2D image of .raw format, and the ```output``` file a object file.
