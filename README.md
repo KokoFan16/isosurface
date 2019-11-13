@@ -47,7 +47,44 @@ For machingSquere.cpp, the ```input``` file is a 2D image of .raw format, and th
     Same with marching square, we should color the corners by whether than exceed or are less than the contour value c for each cube. 
     In total, there are 256 cases. But we can just consider 15 unique cases.
     Here are the 15 cases.
-![marchingcube](https://en.wikipedia.org/wiki/Marching_cubes#/media/File:MarchingCubes.svg)
+![marchingcube](https://github.com/KokoFan16/Contour_Tree/blob/master/image/cube.png)
+
+    Here is an example of obj file:
+    v 0.0588235 -0.176471 -0.939373 
+    v 0.0535294 -0.176471 -0.937255 
+    v 0.0588235 -0.180392 -0.937255 
+    v 0.0634271 -0.176471 -0.937255 
+    v 0.0588235 -0.170242 -0.937255 
+    v 0.0666667 -0.16902 -0.937255 
+    v 0.0666667 -0.168627 -0.937329 
+    ...
+    vn 0 0 1 
+    vn 1 0 9.32466e-17 
+    vn 0 1 -4.78114e-17 
+    vn -1 0 4.66233e-17 
+    vn 0 -1 -4.78114e-17 
+    vn 0 1 4.93374e-17 
+    vn 0 4.88706e-18 1 
+    vn 1 0 0 
+    vn -1 0 -3.21767e-17 
+    vn -0.0437147 0.314427 0.948275 
+    ...
+    f 1 2 3 
+    f 1 3 4 
+    f 5 2 1 
+    f 6 7 8 
+    f 4 5 1 
+    f 7 6 9 
+    f 10 11 12 
+    f 10 12 13 
+    f 14 8 7 
+    f 7 9 14 
+    ...
+    
+     Here is the result:
+![marchingsqueue](https://github.com/KokoFan16/Contour_Tree/blob/master/image/cube.png)
+
+
 
 
     
