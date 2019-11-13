@@ -38,5 +38,5 @@ For machingSquere.cpp, the ```input``` file is a 2D image of .raw format, and th
     ...
 
     Here is the result:
-![marchingsqueue]()
+![marchingsqueue](https://github.com/KokoFan16/Contour_Tree/blob/master/image/square.png)
     
